@@ -4,12 +4,15 @@ Django apps running directly from a docker container
 
 ## Setup
 
+With your Django project inside src/core/ do:
+
 Initial DB initialisation:
 
 ```
 docker-compose run web python src/profiles_project/manage.py migrate
 ```
-Image build:
+Container build and run:
 ```
 docker-compose build
+docker-compose up
 ```
