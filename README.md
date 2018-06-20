@@ -19,7 +19,7 @@ docker-compose up
 ---
 you can pull the image with:
 
-´´´
+```
 docker pull williamcaesar/django-container
-´´´
+```
 
