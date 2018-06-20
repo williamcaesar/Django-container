@@ -1,4 +1,4 @@
-FROM repolocal/django:version2
+FROM python:alpine
 
 # USER app
 ENV PYTHONUNBUFFERED 1
