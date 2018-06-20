@@ -1,10 +1,5 @@
 FROM python:alpine
-
-# USER app
 ENV PYTHONUNBUFFERED 1
-# RUN mkdir /db
-#RUN chown app:app -R /db
-
 RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
