@@ -1,4 +1,5 @@
 # Django in a box
+[![Docker Build Status](https://img.shields.io/docker/build/radhifadlillah/shiori.svg)](https://hub.docker.com/r/williamcaesar/django-container/)
 
 Django apps running directly from a docker container
 
